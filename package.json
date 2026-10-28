@@ -1,0 +1,12 @@
+{
+  "name": "devtools-tenant-subdomains",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/run.ts",
+    "test": "node src/tenant_subdomain.test.ts"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}
